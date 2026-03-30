@@ -7,7 +7,8 @@ namespace socialmediaapi.Model
 {
     public class DashboardModel
     {
-        public int Id { get; set; }
+        public int Id { get; set; } = 1;
+        public string? TotalFollowers {get; set;} = "23,004";
         public FacebookModel Facebook { get; set; }
         public InstagramModel Instagram { get; set; }
         public XModel X { get; set; }

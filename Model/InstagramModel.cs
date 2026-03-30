@@ -9,7 +9,8 @@ namespace socialmediaapi.Model
     public class InstagramModel
     {
     [Key]
-    public int InstagramId { get; set; }
+    public int InstagramId { get; set; } = 1;
+    public string? IGUsername {get; set;} = "@realnathanf";
     public string? IGFollowers { get; set; } = "11k";
     public int IGFollowStats { get; set; } = 1099;
     public int IGLikes { get; set; } = 5462;

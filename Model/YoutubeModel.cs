@@ -9,7 +9,8 @@ namespace socialmediaapi.Model
     public class YoutubeModel
     {
     [Key]
-    public int YoutubeId { get; set; }
+    public int YoutubeId { get; set; } = 1;
+    public string? YTUsername {get; set;} = "Nathan F.";
     public int YTFollowers { get; set; } = 8239;
     public int YTFollowStats { get; set; } = 144;
     public int YTLikes { get; set; } = 107;

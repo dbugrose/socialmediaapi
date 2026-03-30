@@ -9,7 +9,8 @@ namespace socialmediaapi.Model
     public class XModel
     {
     [Key]
-    public int XId { get; set; } 
+    public int XId { get; set; }  = 1;
+    public string? XUsername {get; set;} = "@nathanf";
     public int XFollowers { get; set; } = 1044;
     public int XFollowStats { get; set; } = 99;
     public int XRetweets { get; set; } = 117;
